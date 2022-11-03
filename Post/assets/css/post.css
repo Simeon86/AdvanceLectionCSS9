@@ -1,0 +1,42 @@
+.post_wrapper {
+    text-align: center;
+}
+
+.post {
+    width: 550px;
+    box-shadow: 3px 8px 4px -2px rgba(0, 0, 0, 0.5),
+    3px 8px 10px 5px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.post .post_header,
+.post .post_content {
+    padding: 20px;
+}
+
+.post .post_header  {
+
+}
+
+.post .post_header h2 {
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid #333;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.post .post_image img {
+    border-bottom: 1px solid red;
+    display: block;
+    width: 100%;
+}
+
+.post .post_content p {
+    text-align: justify;
+    letter-spacing: 1px;
+    color: #888;
+}
